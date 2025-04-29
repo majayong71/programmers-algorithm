@@ -1,4 +1,4 @@
-package AlgorithmLv1
+package algorithmLv1
 
 class sum_of_divisors {
 
