@@ -14,7 +14,6 @@ class EvenOdd {
         val isEven = num % 2 ==0
         return if(isEven) "짝수" else "홀수"
     }
-
 }
 
 fun main() {
