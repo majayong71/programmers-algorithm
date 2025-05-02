@@ -1,4 +1,4 @@
-package AlgorithmLv1
+package algorithmLv1
 
 class ReverseDigits {
     fun solution(n: Long): IntArray {
