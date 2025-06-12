@@ -13,4 +13,12 @@ public class AngleClassifier {
             return 4;
         }
     }
+
+    public static void main(String[] args) {
+        AngleClassifier angleClassifier = new AngleClassifier();
+        System.out.println(angleClassifier.solution(70));  // Output: 1
+        System.out.println(angleClassifier.solution(90));  // Output: 2
+        System.out.println(angleClassifier.solution(179)); // Output: 3
+        System.out.println(angleClassifier.solution(181)); // Output: 4
+    }
 }
