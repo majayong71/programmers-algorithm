@@ -5,18 +5,18 @@ package algorithmLv0;
  **/
 public class SumOfEvenNumbers {
 
-    public int solution (int n) {
+    public int solution(int n) {
 
         int lastEven;
 
-        if ( n%2 == 0) {
+        if (n % 2 == 0) {
             lastEven = n;
         } else {
-            lastEven = n -1;
+            lastEven = n - 1;
         }
 
         int count = lastEven / 2;
-        int sum = count * ( 2 + lastEven ) / 2;
+        int sum = count * (2 + lastEven) / 2;
 
         return sum;
     }
