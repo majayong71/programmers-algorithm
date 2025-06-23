@@ -23,8 +23,7 @@ import java.util.Set;
 
 public class VowelRemover {
     public String solution(String my_string) {
-        Set<Character> sc =
-        String a = "";
 
+        return my_string.replaceAll("[aeiou]", "");
     }
 }
